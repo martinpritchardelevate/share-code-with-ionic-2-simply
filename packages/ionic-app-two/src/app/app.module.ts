@@ -8,6 +8,7 @@ import { HomePage } from '../pages/home/home';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+// NOTE : imported using the 'path' specifiec in tsconfig...
 import { SharedComponentsModule } from 'shared-components';
 import { AppStateModule } from './app.state.module';
 

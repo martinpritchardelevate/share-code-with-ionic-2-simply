@@ -1,0 +1,1 @@
+export { SharedComponentsModule } from './module';

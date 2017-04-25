@@ -8,7 +8,7 @@ export class TestExtensionActions {
     static TEST_ACTION = 'TEST_ACTION';
     fireTestAction(): Action {
         return {
-            type: TestActions.TEST_ACTION,
+            type: TestExtensionActions.TEST_ACTION,
             payload: 'Hello World'
         };
     }

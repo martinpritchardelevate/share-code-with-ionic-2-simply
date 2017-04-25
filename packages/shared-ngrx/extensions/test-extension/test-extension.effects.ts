@@ -11,7 +11,7 @@ export class TestExtensionEffects {
     ) {}
 
     @Effect() getVacancies$ = this.actions$
-        .ofType(TestActions.TEST_ACTION)
-        .switchMap(action => {
-            return Observable.of('Hellow World');
-        }); 
+        .ofType(TestExtensionActions.TEST_ACTION)
+        .switchMap(action => Observable.of('Hellow World'));
+
+}

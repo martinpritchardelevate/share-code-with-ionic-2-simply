@@ -53,5 +53,8 @@
       "locator": "ios"
     }
   ],
+  "config": {
+    "ionic_watch": "config/watch.config.js"
+  },
   "description": "ionic-app-one: An Ionic project"
 }

@@ -1,6 +1,6 @@
 # Sharing `typescript` packages in `ionic 2` (Simplpy)
 
-For more info, please see the [Medium post](https://medium.com/@blewpri/sharing-logic-between-ionic2-apps-f06feaf51fad#.2twsjq9ka) that accompanies this repo.
+For more info, please see the [Medium post](https://medium.com/@blewpri/sharing-code-in-angular2-ionic2-apps-simply-without-npm-5203048ec1e1) that accompanies this repo.
 
 ## Get Started
 

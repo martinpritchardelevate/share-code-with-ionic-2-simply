@@ -12,7 +12,11 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "target": "es5",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "shared-components": ["../shared-components/index"],
+      "shared-ngrx": ["../shared-ngrx/index"]
+    }
   },
   "include": [
     "src/**/*.ts"

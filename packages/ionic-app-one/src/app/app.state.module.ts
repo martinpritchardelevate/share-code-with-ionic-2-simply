@@ -16,7 +16,7 @@ import {
         StoreModule.provideStore({
             testExtension: testExtensionReducer
         }),
-        StoreDevtoolsModule.instrumentOnlyWithExtension()
+        StoreDevtoolsModule.instrumentStore()
     ],
     providers: [
         TestExtensionActions,
